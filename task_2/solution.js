@@ -77,7 +77,7 @@ totalSum = totalSum + shippingSum;
     // прибавьте к totalSum значение shippingSum
 let = freeShipping;
 shippingSum = 0;
-console.log (Boolean(shippingSum));
+console.log (Boolean(freeShipping));
     // создайте переменную freeShipping
     // запишите без использования if или любых других условий:
     // если shippingSum равно нулю, то freeShipping должна быть равна true, иначе freeShipping должна быть равна false
