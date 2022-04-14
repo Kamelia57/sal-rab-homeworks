@@ -13,7 +13,6 @@ function calcShipping(sum, min, shipping) {
 {
     console.log (shippingSum = 0);
 } 
-
     // если productsSum равно 0,
     // то shippingSum присвоить значение 0
 
@@ -23,11 +22,10 @@ if (productsSum > freeShippingMinSum || productsSum == freeShippingMinSum)
 }
     // если productsSum Больше или равна freeShippingMinSum,
     // то shippingSum присвоить значение 0
-if (productsSum > 0 && productsSum < freeShippingMinSum ) 
+if (productsSum > 0 && productsSum < freeShippingMinSum) 
 {
     console.log (shippingSum = shippingPrice);
 }
-
 
     // если productsSum больше 0 и меньше freeShippingMinSum,
     // то shippingSum присвоить значение shippingPrice
@@ -79,7 +77,7 @@ totalSum = totalSum + shippingSum;
     // прибавьте к totalSum значение shippingSum
 let = freeShipping;
 shippingSum = 0;
-console.log (Boolean(shippingSum))
+console.log (Boolean(shippingSum));
     // создайте переменную freeShipping
     // запишите без использования if или любых других условий:
     // если shippingSum равно нулю, то freeShipping должна быть равна true, иначе freeShipping должна быть равна false
