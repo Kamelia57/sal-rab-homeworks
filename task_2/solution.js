@@ -76,7 +76,7 @@ totalSum = totalSum - discountSum;
 totalSum = totalSum + shippingSum;
     // прибавьте к totalSum значение shippingSum
 
-let freeShipping = (shippingSum == 0) ? false : true;
+let freeShipping = (shippingSum == 0) ? true : false;
 
 
     // создайте переменную freeShipping
