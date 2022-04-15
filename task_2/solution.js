@@ -9,7 +9,7 @@ function calcShipping(sum, min, shipping) {
    
 // создайте переменную shippingSum
 
-    if (productsSum = 0) 
+    if (productsSum > 0 || productsSum == 0)
 {
     console.log (shippingSum = 0);
 } 
@@ -22,7 +22,7 @@ if (productsSum >= freeShippingMinSum)
 }
     // если productsSum Больше или равна freeShippingMinSum,
     // то shippingSum присвоить значение 0
-if (productsSum > 0 && productsSum < freeShippingMinSum) 
+if (productsSum < freeShippingMinSum && productsSum > 0) 
 {
     console.log (shippingSum = shippingPrice);
 }
