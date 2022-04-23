@@ -14,7 +14,7 @@ function renderCartItem(item) {
     // например,
     // 5 × 500.00 ₽ = 2500 ₽
 
-item = {id,title,count,price};
+
     
     let itemCountText = " ";
 
