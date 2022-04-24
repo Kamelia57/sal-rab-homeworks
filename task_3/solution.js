@@ -34,12 +34,13 @@ itemCountText =
 [
     { 
     count: 1,
-    price: item[1].price,
+    price: 500,
     sum: count * price,
 },
 { 
+
     count: 1,
-    price: item[2].price,
+    price: 120,
     sum: count * price,
 }
 ]
