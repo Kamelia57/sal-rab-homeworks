@@ -4,11 +4,19 @@ function renderCartItem(item) {
     // Задание №3.1. Формирование строки корзины
 item = [
 {
-    id: id,
-    title: title,
-    count: count,
-    price: price
-}];
+    id: 1,
+    title: "Пицца",
+    count: 5,
+    price: 500
+},
+{
+    id: 2,
+    title: "Эчпочмак",
+    count: 0,
+    price: 120
+
+}
+];
 
     // product - объект вида {id: id, title: title, count: count, price: price}
     // например, {id: 1, title: 'Пицца', count: 5, price: '500.00'}, где
