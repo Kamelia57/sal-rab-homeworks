@@ -7,14 +7,14 @@ item = [
     id:1,
     title: 'Пицца',
     count: 1,
-    price: '500.00'
+    price: 500.00
 },
 
 {
     id:2,
     title: 'Чебурек',
     count: 1,
-    price: '120.00'
+    price: 120.00
 }
 ];
 
