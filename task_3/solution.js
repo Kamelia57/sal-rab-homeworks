@@ -2,7 +2,7 @@ function renderCartItem(item) {
     const product = item;
 
     // Задание №3.1. Формирование строки корзины
-item = [
+product = [
 {
     id:1,
     title: 'Пицца',
@@ -18,8 +18,8 @@ item = [
 }
 ];
 
-console.log (item[1]);
-console.log (item[2]);
+console.log (product[1]);
+console.log (product[2]);
 
 var count = count +1;
 console.log (count);
@@ -32,22 +32,7 @@ console.log (count);
     // title - наименование
     // price - цена
     // count - количество
-itemCountText = 
-[
-    { 
-       
-    count: 1,
-    price: item[1].price,
-    sum: count * price,
-},
-{ 
-    
-    count: 1,
-    price: item[2].price,
-    sum: count * price,
-}
-]
-console.log (itemCountText[1]||itemCountText[2]);
+
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
     // например,
@@ -55,12 +40,14 @@ console.log (itemCountText[1]||itemCountText[2]);
 
 
 let itemCountText = " ";
-itemCountText = `${itemCountText + count}x${price}₽ = `;
-
-let sum = count * price;
+itemCountText = itemCountText + product.count;
+itemCountText = itemCountText + " × ";
+itemCountText = itemCountText + product.price;
+itemCountText = itemCountText + " ₽ = ";
+let sum = product.count * product.price;
 itemCountText = itemCountText + sum;
-itemCountText = itemCountText + "₽ = ";
-console.log(itemCountText);
+itemCountText = itemCountText + " ₽ ";
+console.log (itemCountText);
     // 1. Создайте переменную itemCountText, равную пустой строке
     // 2. Присвойте переменной itemCountText результат склеивания itemCountText и количества
     // 3. Присвойте переменной itemCountText результат склеивания itemCountText и ` × `
@@ -74,13 +61,4 @@ console.log(itemCountText);
 
     return `<div class="cart-item"><div>${product.title}</div><div>${itemCountText}</div></div>`;
 
-    function newFunction() {
-        const newLocal = item[1].price;
-        const newConst = item[2].price;
-        return { newLocal, newConst };
-    }
-
-    function newFunction() {
-        console.log(item.title);
-    }
 }
