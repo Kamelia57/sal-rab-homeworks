@@ -33,12 +33,13 @@ console.log (count);
 itemCountText = 
 [
     { 
+    id:1,   
     count: 1,
     price: 500,
     sum: count * price,
 },
 { 
-
+    id:2,
     count: 1,
     price: 120,
     sum: count * price,
@@ -49,6 +50,8 @@ itemCountText =
     // количество × цена ₽ = стоимость ₽
     // например,
     // 5 × 500.00 ₽ = 2500 ₽
+
+    
 let itemCountText = " ";
 itemCountText = itemCountText + count + "x"+ price + "₽ = ";
 let sum = count * price;
