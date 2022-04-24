@@ -28,11 +28,19 @@ var count = item;
     // title - наименование
     // price - цена
     // count - количество
-itemCountText = { 
+itemCountText = 
+[
+    { 
     count: 1,
-    price: item.price,
+    price: item[1].price,
+    sum: count * price,
+},
+{ 
+    count: 1,
+    price: item[2].price,
     sum: count * price,
 }
+]
 
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
