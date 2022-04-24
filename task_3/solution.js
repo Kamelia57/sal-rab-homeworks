@@ -35,13 +35,13 @@ itemCountText =
     { 
        
     count: 1,
-    price: 500,
+    price: item[1].price,
     sum: count * price,
 },
 { 
     
     count: 1,
-    price: 120,
+    price: item[2].price,
     sum: count * price,
 }
 ]
@@ -53,7 +53,8 @@ itemCountText =
 
 
 let itemCountText = " ";
-itemCountText = itemCountText + count + "x"+ price + "₽ = ";
+itemCountText = `${itemCountText + count}x${price}₽ = `;
+
 let sum = count * price;
 itemCountText = itemCountText + sum;
 itemCountText = itemCountText + "₽ = ";
