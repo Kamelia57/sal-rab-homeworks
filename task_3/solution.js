@@ -24,8 +24,7 @@ console.log (item[2]);
 var count = count +1;
 console.log (count);
 
-    const newLocal = item[1].price;
-    const newConst = item[2].price;
+
     
     // product - объект вида {id: id, title: title, count: count, price: price}
     // например, {id: 1, title: 'Пицца', count: 5, price: '500.00'}, где
@@ -38,17 +37,17 @@ itemCountText =
     { 
        
     count: 1,
-    price: newLocal,
-    sum: count * newLocal,
+    price: item[1].price,
+    sum: count * price,
 },
 { 
     
     count: 1,
-    price: newConst,
-    sum: count * newConst,
+    price: item[2].price,
+    sum: count * price,
 }
 ]
-
+console.log (itemCountText[1]||itemCountText[2]);
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
     // например,
@@ -74,6 +73,12 @@ console.log(itemCountText);
     // Конец решения задания №3.1.
 
     return `<div class="cart-item"><div>${product.title}</div><div>${itemCountText}</div></div>`;
+
+    function newFunction() {
+        const newLocal = item[1].price;
+        const newConst = item[2].price;
+        return { newLocal, newConst };
+    }
 
     function newFunction() {
         console.log(item.title);
