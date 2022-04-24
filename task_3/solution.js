@@ -18,14 +18,6 @@ product = [
 }
 ];
 
-console.log (product[1]);
-console.log (product[2]);
-
-var count = count +1;
-console.log (count);
-
-
-    
     // product - объект вида {id: id, title: title, count: count, price: price}
     // например, {id: 1, title: 'Пицца', count: 5, price: '500.00'}, где
     // id - идентификатор
