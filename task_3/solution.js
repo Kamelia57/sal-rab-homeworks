@@ -27,7 +27,7 @@ console.log (item[2]);
     // price - цена
     // count - количество
 itemCountText = { 
-    count: count +1,
+    count: 1,
     price: item.price,
     sum: count * price,
 }
