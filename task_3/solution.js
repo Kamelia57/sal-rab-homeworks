@@ -6,13 +6,13 @@ item = [
 {
     id:1,
     title: 'Пицца',
-    count: 0,
+    count: [1,2,3,4,5,6,7,8,9,10],
     price: '500.00'
 },
 {
     id:2,
     title: 'Чебурек',
-    count: 1,
+    count: [1,2,3,4,5,6,7,8,9,10],
     price: '120.00'
 }
 ]
@@ -27,7 +27,7 @@ console.log (item[2]);
     // price - цена
     // count - количество
 itemCountText = { 
-    count: 1,
+    count: [1,2,3,4,5,6,7,8,9,10],
     price: item.price,
     sum: count * price,
 }
