@@ -7,20 +7,22 @@ item = [
     id:1,
     title: 'Пицца',
     count: 1,
-    price: 500.00
+    price: 500
 },
 
 {
     id:2,
     title: 'Чебурек',
     count: 1,
-    price: 120.00
+    price: 120
 }
 ];
 
 console.log (item[1]);
 console.log (item[2]);
-var count = item;
+
+var count = count +1;
+console.log (count);
 
     // product - объект вида {id: id, title: title, count: count, price: price}
     // например, {id: 1, title: 'Пицца', count: 5, price: '500.00'}, где
