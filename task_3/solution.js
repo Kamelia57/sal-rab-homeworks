@@ -6,13 +6,13 @@ item = [
 {
     id:1,
     title: 'Пицца',
-    count: count+1,
+    count: 0,
     price: '500.00'
 },
 {
     id:2,
     title: 'Чебурек',
-    count: count+1,
+    count: 1,
     price: '120.00'
 }
 ]
