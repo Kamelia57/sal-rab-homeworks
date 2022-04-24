@@ -16,7 +16,7 @@ item = [
     count: 1,
     price: '120.00'
 }
-]
+];
 
 console.log (item[1]);
 console.log (item[2]);
