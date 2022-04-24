@@ -33,13 +33,13 @@ console.log (count);
 itemCountText = 
 [
     { 
-    id:1,   
+       
     count: 1,
     price: 500,
     sum: count * price,
 },
 { 
-    id:2,
+    
     count: 1,
     price: 120,
     sum: count * price,
@@ -51,13 +51,13 @@ itemCountText =
     // например,
     // 5 × 500.00 ₽ = 2500 ₽
 
-    
+
 let itemCountText = " ";
 itemCountText = itemCountText + count + "x"+ price + "₽ = ";
 let sum = count * price;
 itemCountText = itemCountText + sum;
 itemCountText = itemCountText + "₽ = ";
-
+console.log(itemCountText);
     // 1. Создайте переменную itemCountText, равную пустой строке
     // 2. Присвойте переменной itemCountText результат склеивания itemCountText и количества
     // 3. Присвойте переменной itemCountText результат склеивания itemCountText и ` × `
