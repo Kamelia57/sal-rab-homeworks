@@ -24,6 +24,9 @@ console.log (item[2]);
 var count = count +1;
 console.log (count);
 
+    const newLocal = item[1].price;
+    const newConst = item[2].price;
+    
     // product - объект вида {id: id, title: title, count: count, price: price}
     // например, {id: 1, title: 'Пицца', count: 5, price: '500.00'}, где
     // id - идентификатор
@@ -35,14 +38,14 @@ itemCountText =
     { 
        
     count: 1,
-    price: item[1].price,
-    sum: count * price,
+    price: newLocal,
+    sum: count * newLocal,
 },
 { 
     
     count: 1,
-    price: item[2].price,
-    sum: count * price,
+    price: newConst,
+    sum: count * newConst,
 }
 ]
 
