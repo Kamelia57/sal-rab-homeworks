@@ -9,7 +9,7 @@ product = {id,title,count,price};
     // title - наименование
     // price - цена
     // count - количество
-itemCountText = [count] *price;
+itemCountText = [[id][count]] *price;
     // сформируйте строку itemCountText вида:
     // количество × цена ₽ = стоимость ₽
     // например,
