@@ -27,14 +27,14 @@ console.log (product.price);
     // 5 × 500.00 ₽ = 2500 ₽
 
 
-let itemCountText = " ";
-itemCountText = itemCountText + product.count;
-itemCountText = itemCountText + " × ";
-itemCountText = itemCountText + product.price;
-itemCountText = itemCountText + " ₽ = ";
+let itemCountText = "  ";
+itemCountText =  itemCountText + product.count;
+itemCountText =  itemCountText + " × ";
+itemCountText =  itemCountText + product.price;
+itemCountText =  itemCountText + " ₽ = ";
 let sum = product.count * product.price;
 itemCountText = itemCountText + sum;
-itemCountText = itemCountText + " ₽ ";
+itemCountText = itemCountText + " ₽  ";
 console.log (itemCountText);
     // 1. Создайте переменную itemCountText, равную пустой строке
     // 2. Присвойте переменной itemCountText результат склеивания itemCountText и количества
@@ -47,6 +47,6 @@ console.log (itemCountText);
 
     // Конец решения задания №3.1.
 
-    return `<div class="cart-item"><div>${product.title}</div><div>${itemCountText}</div></div>`;
+    return `<div class="cart-item"><div>${product.title}</div><div> ${itemCountText} </div></div>`;
 
 }
