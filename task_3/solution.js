@@ -29,8 +29,15 @@ console.log (product.price);
 
 
 let itemCountText = "  ";
+itemCountText =   itemCountText + " ";
+itemCountText  =  itemCountText + product.count;
+itemCountText  =  itemCountText +  " × " ;
+itemCountText  =  itemCountText + product.price;
+itemCountText  =  itemCountText +  " ₽ = ";
 let sum  =  product.count * product.price;
-itemCountText =  " " + product.count + " × " + product.price + " ₽ = " + sum + " ₽ " + " " }
+itemCountText  =  itemCountText + sum;
+itemCountText  =  itemCountText +  " ₽ ";
+itemCountText =   itemCountText + " ";
 console.log ( itemCountText );
 
     // 1. Создайте переменную itemCountText, равную пустой строке
