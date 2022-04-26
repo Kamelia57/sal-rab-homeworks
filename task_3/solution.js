@@ -26,6 +26,8 @@ console.log (product.price);
     // например,
     // 5 × 500.00 ₽ = 2500 ₽
 
+itemCountText
+{ " ", product.count, " × ", product.price, " ₽ = ", sum, " ₽ ", " " }
 
 let itemCountText = "  ";
 itemCountText  =  itemCountText + product.count;
@@ -36,6 +38,7 @@ let sum  =  product.count * product.price;
 itemCountText  =  itemCountText + sum;
 itemCountText  =  itemCountText +  " ₽ ";
 console.log ( itemCountText );
+
     // 1. Создайте переменную itemCountText, равную пустой строке
     // 2. Присвойте переменной itemCountText результат склеивания itemCountText и количества
     // 3. Присвойте переменной itemCountText результат склеивания itemCountText и ` × `
