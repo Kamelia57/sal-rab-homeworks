@@ -5,9 +5,9 @@ function renderCartItem(item) {
 item = 
 {
     id: [1,2,3,4,5],
-    title: [title],
+    title: ['Пицца','Эчпочмак'],
     count: [1,2,3,4,5,6],
-    price: [price]
+    price: [120,500]
 }
 console.log (product.id);
 console.log (product.title);
