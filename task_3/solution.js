@@ -27,7 +27,7 @@ console.log (product.price);
     // 5 × 500.00 ₽ = 2500 ₽
 
 
-let itemCountText = " ";
+let itemCountText = "";
 itemCountText  =  itemCountText + product.count;
 itemCountText  =  `${itemCountText} × ` ;
 itemCountText  =  itemCountText + product.price;
