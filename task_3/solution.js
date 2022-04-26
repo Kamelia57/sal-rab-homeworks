@@ -4,10 +4,10 @@ function renderCartItem(item) {
     // Задание №3.1. Формирование строки корзины
 item = 
 {
-    id: id,
-    title: title,
-    count: count,
-    price: price
+    id: [1,2,3,4,5],
+    title: [Пицца,Эчпочмак],
+    count: [1,2,3,4,5,6],
+    price: [120,500]
 }
 console.log (product.id);
 console.log (product.title);
