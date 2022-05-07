@@ -56,8 +56,8 @@ function sendRequest(name, phone, address, goods, sum) {
     for (let i = 0; i <= countOfGoods; i += 1) {
         console.log(goods[i]);
     }
-let address = street + house + entrance + floor + flat;
-    data.order.address = address;
+
+    data.order.address = street + house + entrance + floor + flat;
     data.order.sum = name + phone + address + goods + sum;
 
     data.client = 'Иван';
