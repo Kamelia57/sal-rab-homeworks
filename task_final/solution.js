@@ -38,10 +38,10 @@ function sendRequest(name, phone, address, goods, sum) {
     let data = {
      data: {
         client: name + phone,
-        order: {
+        order: ({
           address: {street, house, entrance, floor, flat},
           sum: 900
-         },
+         }),
         goods: [
          {
             title: "Пицца",
