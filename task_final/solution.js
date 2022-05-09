@@ -38,8 +38,8 @@ function sendRequest(name, phone, address, goods, sum) {
 
     let countOfGoods = goods.length;
 
-    for (let i = 0; i < countOfGoods; i += 1) {
-        data.goods.push(goods.title,goods.count);
+    for (let i = 0; i < countOfGoods; i++) {
+        data.goods.push(goods[{title:" ",count:" "}]);
     }
     data.order.address = "ул. " + address.street + ", " + "дом "+ address.house + ", " +  address.entrance + " подъезд" + ", " + address.floor + " этаж" + ", " + "кв " + address.flat;
     data.order.sum = sum;
